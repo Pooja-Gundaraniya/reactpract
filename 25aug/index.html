@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS TUTORIAL</title>
+    <!-- <script src ="/example.js"></script> -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <center><h1>Local storage</h1></center>
+    <input id="ibox" type="text">
+    <button id="ibtn">enter</button>
+    <button id="rebtn">remove</button>
+    <p id="countdown">10:00</p>
+    <script>
+        document.getElementById("ibtn").onclick = () =>{
+            localStorage.setItem("movies","veer zara");
+            localStorage.setItem("movies2","shershah");
+            let w = localStorage.getItem("movies");
+            console.log(w)
+        document.getElementById("rebtn").onclick = () =>{
+            // localStorage.removeItem("movies");
+            localStorage.clear();
+            
+ 
+        }
+       
+        }
+        window.localStorage.setItem('username','pooja');
+        console.log(localStorage.length);
+        console.log(localStorage.key(0));
+    </script>
+    <!-- <script src="/converting.js"></script> -->
+    <!-- <script src="/dates.js"></script> -->
+    <script src="ternary.js"></script>
+
