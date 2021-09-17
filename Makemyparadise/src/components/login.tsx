@@ -11,11 +11,11 @@ export default function Login() {
             </div>
 
             <div className='login'>
-                <header>
+                <header className="header_login">
                     <img src={logoimg} alt="not found"></img>
                     <h1>Login</h1>
                 </header>
-                <main>
+                <main className='main_login'>
                     <form>
                         <label>Username : </label><input type='text' placeholder="Enter your username"></input><br/><br/>
                         <label>Password : </label><input type='password' placeholder="Enter your password"></input><br/><br/>
