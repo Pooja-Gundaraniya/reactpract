@@ -6,7 +6,7 @@ export default function Login() {
     return (
         <div className="maincontainer">
 
-            <div className='container'>
+            <div className='containers'>
                 <p> welcome to <br/>Make my Paradise</p>
             </div>
 
