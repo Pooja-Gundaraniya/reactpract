@@ -25,7 +25,7 @@ export default function Login() {
                 </main>
                 <footer>
                     <label>Create a new accont</label><br/>
-                    <a href="">click here</a>
+                    <a href="@">click here</a>
                 </footer>
             </div>
         </div>
