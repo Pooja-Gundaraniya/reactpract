@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainheader{
+    height:100vh;
+    width: 100%;
+    background-image: url(bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header .logo img{
+    height: 200px;
+    width: 200px;
+    padding-top: 60px;
+}  
+.header nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btnservices{
+    margin-right: 60px;
+}
+.header .btnservices{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: cornsilk;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#d3984c,#634402,#d3984c);
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .left{
+    padding-left: 100px;
+
+}
+main.right{
+    padding-right: 0;
+    width: 50%;
+    height: 100%;
+}
+main .right img {
+    margin-top: 100px;
+    height: 600px;
+}
+.left h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    margin-top: 300px;
+}
+.left h1{
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    margin-top: 12px 0;
+}
+.left p{
+    margin-bottom: 20px;
+    width: 50%;
+}
+.btnappoint{
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(122, 108, 51);
+    border: none;
+    border-radius: 10px;
+    /* background-image: linear-gradient(to right,#d3984c,#634402,#d3984c); */
+    background-image: inherit;
+
+}
