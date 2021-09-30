@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+$main_color : #feca57;
+
+@mixin common{
+    color: yellow;
+    text-transform: lowercase;
+}
+
+header{
+    width: 100%-20%;
+    height: 100vh;
+    margin: auto;
+    background-color:blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1{@include common;
+    &:hover{color: black;}
+    &::after{content: "NEEL";}
+}
+
+}
+// o perators
